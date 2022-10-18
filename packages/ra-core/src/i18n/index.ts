@@ -5,3 +5,4 @@ export * from './useI18nProvider';
 export * from './useTranslate';
 export * from './useTranslateLabel';
 export * from './TranslationMessages';
+export * from './types';
