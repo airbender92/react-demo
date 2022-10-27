@@ -1,3 +1,3 @@
 import * as React from 'react';
 
-// import { CoreAdminContext } from './CoreAdminContext'
+import { CoreAdminContext, CoreAdminContextProps } from './CoreAdminContext'
