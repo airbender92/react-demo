@@ -1,0 +1,1 @@
+[原文](https://medium.com/react-native-training/ditching-setstate-for-mobx-766c165e4578)

@@ -17,7 +17,7 @@
     "watch": "tsc --outDir dist/esm --module es2015 --watch"
   },
   "dependencies": {
-    "@react-demo/ra-core": "1.0.0"
+    "@react-demo/ra-core": "^1.1.0"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",

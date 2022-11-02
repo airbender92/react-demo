@@ -23,7 +23,7 @@
     },
     "dependencies": {
         "node-polyglot": "^2.2.2",
-        "@react-demo/ra-core": "^1.0.0"
+        "@react-demo/ra-core": "1.1.0"
     },
   "keywords": [],
   "author": "",

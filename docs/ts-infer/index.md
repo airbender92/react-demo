@@ -1,0 +1,1 @@
+[ts-infer](https://blog.logrocket.com/understanding-infer-typescript/)

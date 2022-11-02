@@ -1,16 +1,16 @@
 {
-  "name": "@react-demo/ra-ui-materialui",
-  "version": "1.0.0",
-  "description": "",
-  "files": [
-    "*.md",
-    "dist",
-    "src"
-  ],
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "types": "dist/cjs/index.d.ts",
-  "scripts": {
+    "name": "@react-demo/ra-ui-materialui",
+    "version": "1.0.0",
+    "description": "",
+    "files": [
+        "*.md",
+        "dist",
+        "src"
+    ],
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/cjs/index.d.ts",
+    "scripts": {
         "build": "yarn run build-cjs && yarn run build-esm",
         "build-cjs": "rimraf ./dist/cjs && tsc --outDir dist/cjs",
         "build-esm": "rimraf ./dist/esm && tsc --outDir dist/esm --module es2015",
@@ -19,15 +19,15 @@
     "devDependencies": {
         "@mui/icons-material": "^5.0.1",
         "@mui/material": "^5.0.2",
+        "@react-demo/ra-core": "^1.0.0",
+        "@react-demo/ra-i18n-polyglot": "^1.0.0",
+        "@react-demo/ra-language-english": "^1.0.0",
         "@testing-library/react": "^11.2.3",
         "cross-env": "^5.2.0",
         "expect": "^27.4.6",
         "file-api": "~0.10.4",
         "history": "^5.1.0",
         "ignore-styles": "~5.0.1",
-        "@react-demo/ra-core": "^1.0.0",
-        "@react-demo/ra-i18n-polyglot": "^1.0.0",
-        "@react-demo/ra-language-english": "^1.0.0",
         "react": "^17.0.0",
         "react-dom": "^17.0.0",
         "react-hook-form": "^7.34.2",
@@ -47,6 +47,7 @@
         "react-router-dom": "^6.1.0"
     },
     "dependencies": {
+        "@react-demo/ra-core": "^1.1.0",
         "autosuggest-highlight": "^3.1.1",
         "clsx": "^1.1.1",
         "css-mediaquery": "^0.1.2",
@@ -60,7 +61,7 @@
         "react-query": "^3.32.1",
         "react-transition-group": "^4.4.1"
     },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
 }

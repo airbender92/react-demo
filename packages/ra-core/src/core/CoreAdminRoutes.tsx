@@ -11,4 +11,5 @@ import {
   LayoutComponent,
   LoadingComponent,
   CoreLayoutProps,
-} from '../types'
+} from '../types';
+import { useConfigureAdminRouterFromChildren } from './useConfigureAdminRouterFromChildren';
