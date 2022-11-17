@@ -32,7 +32,7 @@ export interface CoreAdminUIProps {
    */
   menu?: ComponentType;
   requireAuth?: boolean;
-  ready?: ComponentType;
+  ready?: React.FC;
   title?: TitleComponent;
 }
 
@@ -75,6 +75,7 @@ export const CoreAdminUI = (props: CoreAdminUIProps) => {
         path="/*"
         element={
           <CoreAdminRoutes
+            // @ts-ignore
             catchAll={catchAll}
             dashboard={dashboard}
             layout={layout}

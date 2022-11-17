@@ -1,4 +1,4 @@
-import { ReactNode, ReactElement, ComponentType } from 'react';
+import { ReactNode, ReactElement, ComponentType, FC } from 'react';
 
 import { WithPermissionsChildrenParams } from './auth/WithPermissions';
 import { AuthActionType } from './auth/types';
@@ -302,7 +302,7 @@ export type RenderResourcesFunction = (permissions: any) =>
 export type AdminChildren = RenderResourcesFunction | ReactNode;
 
 export type TitleComponent = string | ReactElement<any>;
-export type CatchAllComponent = ComponentType<{ title?: TitleComponent }>;
+export type CatchAllComponent = React.FC<{ title?: TitleComponent }>;
 
 export type LoginComponent = ComponentType<{}> | ReactElement<any>;
 export type DashboardComponent = ComponentType<WithPermissionsChildrenParams>;
@@ -316,8 +316,8 @@ export interface CoreLayoutProps {
     title?: TitleComponent;
 }
 
-export type LayoutComponent = ComponentType<CoreLayoutProps>;
-export type LoadingComponent = ComponentType<{
+export type LayoutComponent = FC<CoreLayoutProps>;
+export type LoadingComponent = FC<{
     loadingPrimary?: string;
     loadingSecondary?: string;
 }>;

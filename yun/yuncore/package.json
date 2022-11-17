@@ -1,0 +1,34 @@
+{
+  "name": "@yun/yuncore",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "./bin/yun.js",
+  "files": [
+    "bin",
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "build": "rimraf lib && babel src -d lib",
+    "lint": "eslint --ext .js,.ts src",
+    "precommit": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "cross-spawn": "^7.0.3",
+    "eslint": "^8.26.0",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^9.1.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4",
+    "which": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.6",
+    "@babel/preset-env": "^7.19.4"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@react-demo/bluebird",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "node scripts/jshint.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "acorn": "^8.8.1",
+    "acorn-walk": "^8.2.0"
+  }
+}
